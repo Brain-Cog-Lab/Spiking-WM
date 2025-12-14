@@ -21,8 +21,7 @@ Mingyang Lyu<sup>1,2</sup>,
 
 
 ## 💡 Introduction
-**Spiking-WM** is a brain-inspired **spiking world model** for model-based reinforcement learning that introduces **multi-compartment neurons (MCNs)** to enable long-term temporal memory in SNNs. Inspired by biological dendritic integration, Spiking-WM combines a spiking state-space model, a spiking encoder, and a spiking policy network for end-to-end planning and decision-making. Experiments show that Spiking-WM outperforms prior SNN-based methods and achieves performance comparable to ANN world models, while demonstrating strong long-sequence modeling ability on speech benchmarks.
-
+**Spiking-WM** is a brain-inspired **spiking world model** for model-based reinforcement learning that introduces **multi-compartment neurons (MCNs)** to equip SNNs with long-term temporal memory. Inspired by nonlinear dendritic integration in biological neurons, Spiking-WM integrates a spiking state-space model, a spiking encoder, and a spiking policy network to enable end-to-end planning and decision-making. Experiments on the DeepMind Control Suite demonstrate that Spiking-WM outperforms existing SNN-based approaches and achieves performance comparable to GRU-based ANN world models, while evaluations on long-sequence speech benchmarks (SHD, TIMIT, and LibriSpeech 100h) further confirm its superior capability for modeling long-range temporal dependencies.
 
 <div style="text-align: center;">
   <img src="assets/overview.jpg" alt="Spiking-WM" width="888"/>
